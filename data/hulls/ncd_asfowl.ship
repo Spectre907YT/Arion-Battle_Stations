@@ -1,0 +1,125 @@
+{
+  "hullName": "ASF-100 Owl",
+  "hullId": "ncd_asfowl",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_asf100owl.png",
+  "style": "HIGH_TECH",
+  "height": 60,
+  "width": 40,
+  "center": [20, 29],
+  "collisionRadius": 0,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull",
+    "eccm",
+    "insulatedengine",
+    "no_weapon_flux",
+    "advancedcore"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "gauss",
+    "WS0003": "swarmer_fighter",
+    "WS0004": "swarmer_fighter",
+    "WS0005": "swarmer_fighter",
+    "WS0006": "swarmer_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, -8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, 8]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-12, 8]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22.5, 6.5],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, -6.5],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, 2.5],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, -2.5],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    27, 0,
+    -21, 17,
+    -26.5, 0,
+    -21, -17
+  ]
+}

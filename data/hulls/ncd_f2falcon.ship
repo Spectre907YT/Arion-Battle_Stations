@@ -1,0 +1,112 @@
+{
+  "hullName": "F-2 Falcon",
+  "hullId": "ncd_f2falcon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_f2falcon.png",
+  "style": "MIDLINE",
+  "height": 38,
+  "width": 26,
+  "center": [13, 19],
+  "collisionRadius": 0,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "swarmer_fighter",
+    "WS0003": "swarmer_fighter",
+    "WS0004": "swarmer_fighter",
+    "WS0005": "swarmer_fighter",
+    "WS0006": "swarmer_fighter",
+    "WS0007": "swarmer_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, 12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6, -12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4.5, 9.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4.5, -9.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, 7.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2.5, -7.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -0],
+      "length": 10,
+      "width": 2.5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-18.5, 0],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -8, -12,
+    18, -0,
+    -8, 12,
+    -18, -0
+  ]
+}

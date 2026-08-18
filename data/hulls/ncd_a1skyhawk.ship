@@ -1,0 +1,89 @@
+{
+  "hullName": "A-1 Skyhawk",
+  "hullId": "ncd_a1skyhawk",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_a1skyhawk.png",
+  "style": "LOW_TECH",
+  "height": 32,
+  "width": 22,
+  "center": [11, 16],
+  "collisionRadius": 0,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull",
+    "no_weapon_flux",
+    "rugged",
+    "blast_doors"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "swarmer_fighter",
+    "WS0003": "swarmer_fighter",
+    "WS0004": "annihilator_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [8, -1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4.5, 10.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4.5, -10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, -5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, -0],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -4.5, -10,
+    15, -0,
+    -4.5, 10,
+    -15, -0
+  ]
+}

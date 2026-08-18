@@ -1,0 +1,91 @@
+{
+  "hullName": "ASF-101 Wyvern",
+  "hullId": "ncd_asfwyvern",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_asf101wyverne.png",
+  "style": "HIGH_TECH",
+  "height": 44,
+  "width": 44,
+  "center": [22, 22],
+  "collisionRadius": 1,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull",
+    "eccm",
+    "insulatedengine",
+    "no_weapon_flux",
+    "advancedcore"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "hveldriver",
+    "WS0003": "swarmer_fighter",
+    "WS0004": "swarmer_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, -3]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 2],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, -2],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -20, 0,
+    -4, -20,
+    18, 0,
+    18, -0,
+    -4, 20,
+    -20, -0
+  ]
+}

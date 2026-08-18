@@ -1,0 +1,134 @@
+{
+  "hullName": "Principality",
+  "hullId": "ncd_principalityddv",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ncd_principalityddv.png",
+  "style": "MIDLINE",
+  "height": 210,
+  "width": 136,
+  "center": [68, 100],
+  "collisionRadius": 100.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 116.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm",
+    "ecm",
+    "ncd_advconstruction",
+    "ncd_atmodeck",
+    "recovery_shuttles"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 305,
+      "angle": 0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -104,
+      "locations": [-3, -18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 104,
+      "locations": [-3, 18]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -52.5, 44.5,
+        -52.5, 43.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -52.5, -44.5,
+        -52.5, -44.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-99, 50],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99, -50],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99, 30],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99, -30],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99, -0],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -79, -67,
+    -30, -67,
+    -11, -34,
+    109, -0,
+    -11, 34,
+    -30, 67,
+    -79, 67
+  ]
+}

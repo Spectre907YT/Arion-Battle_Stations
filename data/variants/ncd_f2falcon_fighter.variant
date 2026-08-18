@@ -1,0 +1,28 @@
+{
+  "variantId": "ncd_f2falcon_fighter",
+  "hullId": "ncd_f2falcon",
+  "displayName": "SEAD",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "swarmer_fighter",
+        "WS0003": "swarmer_fighter",
+        "WS0004": "sabot_fighter",
+        "WS0005": "sabot_fighter",
+        "WS0006": "sabot_fighter",
+        "WS0007": "sabot_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

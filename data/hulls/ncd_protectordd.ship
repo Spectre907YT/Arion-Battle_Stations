@@ -1,0 +1,151 @@
+{
+  "hullName": "Protector",
+  "hullId": "ncd_protectordd",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ncd_protectordd.png",
+  "style": "MIDLINE",
+  "height": 210,
+  "width": 136,
+  "center": [68, 105],
+  "collisionRadius": 82.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "pointdefenseai",
+    "eccm",
+    "ecm",
+    "ncd_advconstruction",
+    "ncd_atmoflight"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 0,
+      "locations": [49, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": 0,
+      "locations": [21, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -63.5,
+      "locations": [-31, -27]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 63.5,
+      "locations": [-31, 27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -118.5,
+      "locations": [-44, -27]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 118.5,
+      "locations": [-44, 27]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -73, -0,
+        -73, -0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-85, 50],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, -50],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-93, 30],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-93, -30],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-104, -0],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -64, -67,
+    -35, -67,
+    -15, -33,
+    104, 0,
+    -15, 33,
+    -35, 67,
+    -64, 67,
+    -92, -0
+  ]
+}

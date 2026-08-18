@@ -1,0 +1,7 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+ncd_asfowl_fighter_wing,ncd_asfowl_fighter,WING_KEEP_AT_RANGE,3,0.5,20,40,V,10000,2000,,1,FIGHTER,Superfighter,60,200000,,,,,,,,,,,,,
+ncd_asfnosferatu_fighter_wing,ncd_asfnosferatu_fighter,WING_KEEP_AT_RANGE,3,0.5,12,25,V,8000,2000,,1,FIGHTER,Superfighter,30,100000,,,,,,,,,,,,,
+ncd_asfwyvern_fighter_wing,ncd_asfwyvern_fighter,WING_KEEP_AT_RANGE,3,0.5,12,25,V,8000,2000,,1,FIGHTER,Superfighter,30,120000,,,,,,,,,,,,,
+ncd_asfwyvernr_fighter_wing,ncd_asfwyvernr_fighter,WING_KEEP_AT_RANGE,3,0.5,12,25,V,10000,2000,,1,INTERCEPTOR,Superfighter,30,120000,,,,,,,,,,,,,
+ncd_a1skyhawk_fighter_wing,ncd_a1skyhawk_fighter,,0,,6,8,V,4000,1000,0,3,ASSAULT,Attacker,10,3500,,,,,,,,,,,,,
+ncd_f2falcon_fighter_wing,ncd_f2falcon_fighter,WING_KEEP_AT_RANGE,0,,10,10,V,6000,1000,-100,2,FIGHTER,Fighter,15,7500,,,,,,,,,,,,,

@@ -1,0 +1,161 @@
+{
+  "hullName": "Powers",
+  "hullId": "ncd_powerslva",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ncd_powerslva.png",
+  "style": "MIDLINE",
+  "height": 285,
+  "width": 154,
+  "center": [77, 143],
+  "collisionRadius": 162.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 155.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm",
+    "ecm",
+    "ncd_advconstruction",
+    "ncd_planetassault",
+    "recovery_shuttles"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [3, -28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-56, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -90,
+      "locations": [-36, -62]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 90,
+      "locations": [-36, 62]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        92.5, -0,
+        93, -0
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        32.5, -0,
+        33, -0
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -27.5, -0,
+        -27, -0
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -88, -0,
+        -87, -0
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-17, -51]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 55],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-142, -0],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97, -55],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    141, -15,
+    141, 15,
+    112, 34,
+    46, 34,
+    25, 52,
+    7, 52,
+    -19, 76,
+    -55, 76,
+    -97, 65,
+    -97, 35,
+    -142, 10,
+    -142, -10,
+    -97, -27,
+    -97, -65,
+    -55, -76,
+    -19, -76,
+    25, -34
+  ]
+}

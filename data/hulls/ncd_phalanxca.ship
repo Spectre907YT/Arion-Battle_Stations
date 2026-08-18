@@ -1,0 +1,191 @@
+{
+  "hullName": "Phalanx",
+  "hullId": "ncd_phalanxca",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/ncd_phalanxca.png",
+  "style": "MIDLINE",
+  "height": 285,
+  "width": 154,
+  "center": [77, 144],
+  "collisionRadius": 162.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 155.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "pointdefenseai",
+    "eccm",
+    "ecm",
+    "ncd_advconstruction",
+    "ncd_atmoflight"
+  ],
+  "builtInWeapons": {
+    "WS0012": "gauss"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [66, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 107.5,
+      "locations": [-39, 55]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": -107.5,
+      "locations": [-39, -55]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -84, -0,
+        -83, -0
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": 0,
+      "locations": [41, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": 180,
+      "locations": [-33, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 57,
+      "locations": [-6, 31]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -57,
+      "locations": [-6, -31]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 90,
+      "locations": [-22, 31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -90,
+      "locations": [-22, -31]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 126,
+      "locations": [-38, 31]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -126,
+      "locations": [-38, -31]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [92, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-98, 55],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-143, -0],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98, -55],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -144, -11,
+    -73.5, -34,
+    -99, -44,
+    -99, -66,
+    -56, -76,
+    -20, -76,
+    24.5, -34,
+    140, -14,
+    140, 14,
+    24.5, 34,
+    -20, 76,
+    -56, 76,
+    -99, 66,
+    -99, 44,
+    -73.5, 34,
+    -144, 11
+  ]
+}
