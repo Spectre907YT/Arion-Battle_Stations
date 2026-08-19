@@ -11,6 +11,12 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 21,
   "viewOffset": 0,
+  "builtInMods": [
+    "reinforcedhull",
+    "no_weapon_flux",
+    "rugged",
+    "blast_doors"
+  ],
   "builtInWeapons": {
     "WS0001": "vulcan",
     "WS0002": "swarmer_fighter",

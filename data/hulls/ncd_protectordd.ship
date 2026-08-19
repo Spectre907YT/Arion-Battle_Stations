@@ -12,10 +12,7 @@
   "shieldRadius": 108,
   "viewOffset": 0,
   "builtInMods": [
-    "hiressensors",
-    "pointdefenseai",
-    "eccm",
-    "ecm",
+    "ncd_aegis",
     "ncd_advconstruction",
     "ncd_atmoflight"
   ],

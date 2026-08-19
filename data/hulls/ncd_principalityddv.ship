@@ -12,8 +12,7 @@
   "shieldRadius": 116.5,
   "viewOffset": 0,
   "builtInMods": [
-    "eccm",
-    "ecm",
+    "ncd_integratedew",
     "ncd_advconstruction",
     "ncd_atmodeck",
     "recovery_shuttles"

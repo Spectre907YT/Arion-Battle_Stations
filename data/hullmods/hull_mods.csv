@@ -1,5 +1,19 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
-Advanced Construction,ncd_advconstruction,,,NCD Co,,,,,TRUE,,0,0,0,0,data.hullmods.ncd_advconstruction,Advanced construction techniques allows this ship to almost always be recoverable after battle and reduces crew cassualties by %s.,Improved hull and crew survivability.,,graphics/hullmods/ncd_advconstruction.png
+Advanced Construction,ncd_advconstruction,,,NCD Co,"no_sell, no_drop, restricted",,,,,,0,0,0,0,data.hullmods.ncd_advconstruction,Advanced construction techniques allows this ship to almost always be recoverable after battle and reduces crew cassualties by %s.,Improved hull and crew survivability.,,graphics/hullmods/ncd_advconstruction.png
 Atmospheric Flight,ncd_atmoflight,,,NCD Co,,,,,TRUE,,0,0,0,0,data.hullmods.ncd_atmoflight,"Atmospheric flight and combat capabilities allows this ship to support any ground assault operations. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.",Improves effectiveness of raids.,,graphics/hullmods/ground_support.png
 Atmosphere Capable Flight Deck,ncd_atmodeck,,,NCD Co,,,,,TRUE,,0,0,0,0,data.hullmods.ncd_atmodeck,"The ships flight deck design allows fighters to operate in atmosphere. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.",Improves effectiveness of raids.,,graphics/hullmods/ground_support.png
 Planetary Assault Facilities,ncd_planetassault,,,NCD Co,,,,,TRUE,,0,0,0,0,data.hullmods.ncd_planetassault,"This ship is tailor made to support planetary assault operations. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.",Improves effectiveness of raids.,,graphics/hullmods/ground_support.png
+Integrated EW,ncd_integratedew,,,NCD Co,"no_sell, no_drop, restricted",,,,,,0,0,0,0,data.hullmods.ncd_integratedew,"This ship is equipped with advanced electronic warfare measures that reduces the chance for missiles launched by the ship to be affected by electronic counter-measures and flares by %s.
+
+Each missile also receives a significantly improved guidance algorithm, as well increased top speed of %s and maneuverability of %s.
+
+Enemy ECM range reduction is also reduced by %s. When deployed, the ship also grants %s/%s/%s/%s ECM rating, depending on this ship's hull size.","Improves missile speed and guidance, reduces effect of enemy Electronic Warfare and increases ship ECM rating.","Fully negates the weapon range reduction, and makes the ship's missiles always ignore flares.",graphics/hullmods/ncd_integratedew.png
+AEGIS Combat System,ncd_aegis,,,NCD Co,"no_sell, no_drop, restricted",,,,,,0,0,0,0,data.hullmods.ncd_aegis,"This ship is equipped with the AEGIS Combat System, which allows point defense to identify - and ignore - decoy flares. In addition, all point-defense weapons get the best possible target leading, regardless of combat readiness, and all damage to missiles is increased by %s.  
+
+Missiles launched by the ship are less likely to be affected by electronic counter-measures and flares by %s.
+
+Each missile also receives a significantly improved guidance algorithm, as well increased top speed of %s and maneuverability of %s.
+
+Enemy ECM range reduction is also reduced by %s. When deployed, the ship also grants %s/%s/%s/%s ECM rating, depending on this ship's hull size.","Improves PD, missile speed and guidance, reduces effect of enemy EW and increases ship ECM rating.","Fully negates the weapon range reduction, and makes the ship's missiles always ignore flares. 
+
+All small non-missile, non-strike weapons are classified as ""point-defense"", automatically target missiles, and are affected by point-defense stat modifiers.",graphics/hullmods/ncd_aegis.png

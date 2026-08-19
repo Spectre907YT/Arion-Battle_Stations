@@ -12,8 +12,7 @@
   "shieldRadius": 155.5,
   "viewOffset": 0,
   "builtInMods": [
-    "eccm",
-    "ecm",
+    "ncd_integratedew",
     "ncd_advconstruction",
     "ncd_planetassault",
     "recovery_shuttles"
