@@ -3,7 +3,7 @@
   "hullId": "ncd_phalanxca",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/ncd_phalanxca.png",
-  "style": "MIDLINE",
+  "style": "NCD Co",
   "height": 285,
   "width": 154,
   "center": [77, 144],

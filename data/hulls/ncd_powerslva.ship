@@ -3,7 +3,7 @@
   "hullId": "ncd_powerslva",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/ncd_powerslva.png",
-  "style": "MIDLINE",
+  "style": "NCD Co",
   "height": 285,
   "width": 154,
   "center": [77, 143],
