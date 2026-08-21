@@ -1,0 +1,34 @@
+{
+
+	"combatSmallForSmallFleet":{
+		"ncd_protectordd_line":3,
+
+	},
+
+	"combatSmall":{
+		"ncd_protectordd_line":3,
+
+	},
+
+	"combatLarge":{
+		"ncd_protectordd_line":3,
+		"ncd_phalanxca_line":2,
+
+	},
+
+	"carrierSmall":{
+		"ncd_principalityddv_line":2,
+
+	},
+
+	"carrierMedium":{
+		"ncd_powerslva_aviation":1,
+
+	},
+
+	"personnelMedium":{
+		"ncd_powerslva_aviation":1,
+
+	},
+
+}

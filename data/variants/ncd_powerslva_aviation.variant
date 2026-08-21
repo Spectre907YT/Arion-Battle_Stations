@@ -1,0 +1,43 @@
+{
+  "variantId": "ncd_powerslva_aviation",
+  "hullId": "ncd_powerslva",
+  "displayName": "Aviation",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "hardenedshieldemitter",
+    "heavyarmor",
+    "pointdefenseai",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ncd_f2falcon_fighter_wing",
+    "ncd_a1skyhawk_fighter_wing",
+    "ncd_a1skyhawk_fighter_wing",
+    "ncd_a1skyhawk_fighter_wing"
+  ]
+}

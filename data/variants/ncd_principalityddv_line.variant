@@ -1,0 +1,40 @@
+{
+  "variantId": "ncd_principalityddv_line",
+  "hullId": "ncd_principalityddv",
+  "displayName": "Line",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "targetingunit",
+    "heavyarmor",
+    "autorepair",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ncd_f2falcon_fighter_wing",
+    "ncd_a1skyhawk_fighter_wing"
+  ]
+}
