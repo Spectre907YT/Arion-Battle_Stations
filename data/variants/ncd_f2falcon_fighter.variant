@@ -14,12 +14,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "vulcan",
-        "WS0002": "swarmer_fighter",
-        "WS0003": "swarmer_fighter",
-        "WS0004": "sabot_fighter",
-        "WS0005": "sabot_fighter",
-        "WS0006": "sabot_fighter",
-        "WS0007": "sabot_fighter"
+        "WS0002": "ncd_hydra19x",
+        "WS0003": "ncd_hydra19x",
       }
     }
   ],

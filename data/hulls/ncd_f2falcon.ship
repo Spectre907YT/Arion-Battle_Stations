@@ -7,24 +7,15 @@
   "height": 38,
   "width": 26,
   "center": [13, 19],
-  "collisionRadius": 0,
+  "collisionRadius": 24,
   "shieldCenter": [0, 0],
   "shieldRadius": 21,
   "viewOffset": 0,
   "builtInMods": [
-    "reinforcedhull",
-    "no_weapon_flux",
-    "rugged",
-    "blast_doors"
+    "no_weapon_flux"
   ],
   "builtInWeapons": {
-    "WS0001": "vulcan",
-    "WS0002": "swarmer_fighter",
-    "WS0003": "swarmer_fighter",
-    "WS0004": "swarmer_fighter",
-    "WS0005": "swarmer_fighter",
-    "WS0006": "swarmer_fighter",
-    "WS0007": "swarmer_fighter"
+    "WS0001": "vulcan"
   },
   "weaponSlots": [
     {

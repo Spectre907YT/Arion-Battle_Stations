@@ -14,10 +14,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "vulcan",
-        "WS0002": "swarmer_fighter",
-        "WS0003": "swarmer_fighter",
-        "WS0004": "annihilator_fighter",
-        "WS0005": "annihilator_fighter"
+        "WS0004": "ncd_hydra7x",
+        "WS0005": "ncd_hydra7x"
       }
     }
   ],

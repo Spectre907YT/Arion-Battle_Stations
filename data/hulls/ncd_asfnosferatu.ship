@@ -7,22 +7,16 @@
   "height": 44,
   "width": 32,
   "center": [16, 22],
-  "collisionRadius": 0,
+  "collisionRadius": 29.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 25,
+  "shieldRadius": 25.5,
   "viewOffset": 0,
   "builtInMods": [
-    "reinforcedhull",
-    "eccm",
-    "insulatedengine",
     "no_weapon_flux",
-    "advancedcore"
   ],
   "builtInWeapons": {
     "WS0001": "vulcan",
-    "WS0002": "hveldriver",
-    "WS0003": "swarmer_fighter",
-    "WS0004": "swarmer_fighter"
+    "WS0002": "ncd_fighteremlmed",
   },
   "weaponSlots": [
     {

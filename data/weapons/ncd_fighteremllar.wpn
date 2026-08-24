@@ -1,9 +1,9 @@
 {
-	"id":"ncd_spinalemlmed",
+	"id":"ncd_fighteremllar",
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"LARGE",
-	"displayArcRadius":1100,
+	"displayArcRadius":1000,
 	"turretSprite":"",
 	"hardpointSprite":"",
 	"glowColor":[100,100,255,255],
