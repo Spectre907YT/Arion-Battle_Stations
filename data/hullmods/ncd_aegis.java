@@ -105,6 +105,25 @@ public class ncd_aegis extends BaseHullMod {
 		return null;
 	}
 
+	public boolean isApplicableToShip(ShipAPI ship) {
+		return !ship.getVariant().getHullMods().contains("eccm") ||
+				!ship.getVariant().getHullMods().contains("ecm") ||
+				!ship.getVariant().getHullMods().contains("pointdefenseai");
+	}
+	
+	public String getUnapplicableReason(ShipAPI ship) {
+		if (ship.getVariant().getHullMods().contains("eccm")) {
+			return "Incompatible with ECCM Package";
+		}
+		if (ship.getVariant().getHullMods().contains("ecm")) {
+			return "Incompatible with ECM Package";
+		}
+		if (ship.getVariant().getHullMods().contains("pointdefenseai")) {
+			return "Incompatible with Integrated Point Defense AI";
+		}
+		return null;
+	}
+
 
 }
 

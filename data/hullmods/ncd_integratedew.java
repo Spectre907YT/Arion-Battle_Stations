@@ -2,11 +2,15 @@ package data.hullmods;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.combat.ShipAPI;
+import org.magiclib.util.MagicIncompatibleHullmods;
 
 public class ncd_integratedew extends BaseHullMod {
 	
@@ -33,6 +37,7 @@ public class ncd_integratedew extends BaseHullMod {
 		mag.put(HullSize.CRUISER, 3f);
 		mag.put(HullSize.CAPITAL_SHIP, 4f);
 	}
+
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		boolean sMod = isSMod(stats);
@@ -67,6 +72,27 @@ public class ncd_integratedew extends BaseHullMod {
 		if (index == 5) return "" + ((Float) mag.get(HullSize.DESTROYER)).intValue() + "%";
 		if (index == 6) return "" + ((Float) mag.get(HullSize.CRUISER)).intValue() + "%";
 		if (index == 7) return "" + ((Float) mag.get(HullSize.CAPITAL_SHIP)).intValue() + "%";
+		return null;
+	}
+
+
+
+		public boolean isApplicableToShip(ShipAPI ship) {
+		return !ship.getVariant().getHullMods().contains("eccm") ||
+				!ship.getVariant().getHullMods().contains("ecm") ||
+				!ship.getVariant().getHullMods().contains("pointdefenseai");
+	}
+	
+	public String getUnapplicableReason(ShipAPI ship) {
+		if (ship.getVariant().getHullMods().contains("eccm")) {
+			return "Incompatible with ECCM Package";
+		}
+		if (ship.getVariant().getHullMods().contains("ecm")) {
+			return "Incompatible with ECM Package";
+		}
+		if (ship.getVariant().getHullMods().contains("pointdefenseai")) {
+			return "Incompatible with Integrated Point Defense AI";
+		}
 		return null;
 	}
 

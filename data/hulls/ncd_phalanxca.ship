@@ -17,7 +17,7 @@
     "ncd_atmoflight"
   ],
   "builtInWeapons": {
-    "WS0012": "gauss"
+    "WS0012": "ncd_spinalemlmed"
   },
   "weaponSlots": [
     {
