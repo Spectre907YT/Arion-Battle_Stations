@@ -3,8 +3,8 @@
 	"NCD Co":{
 		"hyperspaceJitterColor":[255,145,75,200],
 		"baseCampaignExplosionColor":[255,145,75,255],
-		"baseCombatExplosionColor":[255,145,75,255], # smooth flash
-		"combatExplosionNonFlashColorOverride":[255,145,75,255], # the more billowy explosion
+		"baseCombatExplosionColor":[255,145,75,255],
+		"combatExplosionNonFlashColorOverride":[255,145,75,255],
 		"fighterRepairFlickerColor":[255,145,75,255],
 		"fighterChipIconColor":[255,255,255,255],
 		"weaponDisabledExplosionColor":[255,145,75,255],
@@ -12,15 +12,15 @@
 		"shieldInnerColor":[125,125,255,75],
 		"fluxVentCoreColor":[255,255,255,255],
 		"fluxVentFringeColor":[125,0,155,255],
-		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
-		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
-		"empLoopSet":"emp_loop",						# id of entry in sounds.json
-		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
-		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
-		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
-		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
-		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
-		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"engineLoopSet":"engine_loop", 					
+		"engineAccelerateSet":"engine_accelerate",		
+		"empLoopSet":"emp_loop",						
+		"fluxLoopSet":"flux_loop",						
+		"ventFluxSet":"vent_flux",						
+		"shieldBurnoutSet":"shield_burnout",			
+		"shieldLowerSet":"shield_lower",				
+		"shieldRaiseSet":"shield_raise",				
+		"explosionShipSet":"explosion_ship",			
 		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
 		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
 		

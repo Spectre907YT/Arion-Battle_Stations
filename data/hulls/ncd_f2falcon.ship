@@ -1,9 +1,9 @@
 {
-  "hullName": "F-2 Falcon",
+  "hullName": "F/A-2 Falcon",
   "hullId": "ncd_f2falcon",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/ncd_f2falcon.png",
-  "style": "MIDLINE",
+  "style": "NCD Co",
   "height": 38,
   "width": 26,
   "center": [13, 19],
@@ -84,26 +84,18 @@
   ],
   "engineSlots": [
     {
-      "location": [-18.5, -0],
-      "length": 10,
-      "width": 2.5,
-      "angle": 180,
-      "contrailSize": 30,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-18.5, 0],
-      "length": 30,
-      "width": 10,
+      "location": [-20, -0],
+      "length": 15,
+      "width": 5,
       "angle": -180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "LOW_TECH_FIGHTER"
     }
   ],
   "bounds": [
-    -8, -12,
-    18, -0,
-    -8, 12,
-    -18, -0
+    -8, -13,
+    19, 0,
+    -8, 13,
+    -19, 0
   ]
 }

@@ -3,7 +3,7 @@
   "hullId": "ncd_a1skyhawk",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/ncd_a1skyhawk.png",
-  "style": "LOW_TECH",
+  "style": "NCD Co",
   "height": 32,
   "width": 22,
   "center": [11, 16],
@@ -66,18 +66,18 @@
   ],
   "engineSlots": [
     {
-      "location": [-15, -0],
-      "length": 15,
+      "location": [-16, -0],
+      "length": 12.5,
       "width": 5,
       "angle": 180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "LOW_TECH_FIGHTER"
     }
   ],
   "bounds": [
-    -4.5, -10,
-    15, -0,
-    -4.5, 10,
-    -15, -0
+    -4.5, -11,
+    16, 0,
+    -4.5, 11,
+    -16, 0
   ]
 }

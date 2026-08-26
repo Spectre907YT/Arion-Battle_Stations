@@ -3,16 +3,16 @@
   "hullId": "ncd_asfnosferatu",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/ncd_asf102nosferatu.png",
-  "style": "HIGH_TECH",
-  "height": 44,
-  "width": 32,
-  "center": [16, 22],
-  "collisionRadius": 29.5,
+  "style": "NCD Co",
+  "height": 56,
+  "width": 40,
+  "center": [20, 28],
+  "collisionRadius": 9,
   "shieldCenter": [0, 0],
-  "shieldRadius": 25.5,
+  "shieldRadius": 32,
   "viewOffset": 0,
   "builtInMods": [
-    "no_weapon_flux",
+    "no_weapon_flux"
   ],
   "builtInWeapons": {
     "WS0001": "vulcan",
@@ -22,43 +22,43 @@
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 5,
+      "arc": 0,
       "angle": 0,
-      "locations": [10, -3]
+      "locations": [11, -4]
     },
     {
       "id": "WS0002",
       "size": "MEDIUM",
-      "type": "BUILT_IN",
+      "type": "HYBRID",
       "mount": "HIDDEN",
-      "arc": 15,
+      "arc": 0,
       "angle": 0,
-      "locations": [-3, -0]
+      "locations": [-7, -0]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-3, 4]
+      "locations": [-7, 5]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-3, -4]
+      "locations": [-7, -5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-19, 2],
+      "location": [-26, 2.5],
       "length": 15,
       "width": 5,
       "angle": 180,
@@ -66,20 +66,18 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-19, -2],
+      "location": [-26, -2.5],
       "length": 15,
       "width": 5,
-      "angle": -180,
+      "angle": 180,
       "contrailSize": 30,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    -20, 0,
-    -10, -14,
-    18, 0,
-    18, -0,
-    -10, 14,
-    -20, -0
+    -13, -19,
+    27, -0,
+    -13, 19,
+    -27, -0
   ]
 }
