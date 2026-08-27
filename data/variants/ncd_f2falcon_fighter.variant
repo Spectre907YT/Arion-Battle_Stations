@@ -14,8 +14,12 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "vulcan",
-        "WS0002": "ncd_hydra19x",
-        "WS0003": "ncd_hydra19x",
+        "WS0002": "ncd_admmaldpod",
+        "WS0003": "ncd_admmaldpod",
+        "WS0004": "ncd_armharm1x",
+        "WS0005": "ncd_armharm1x",
+        "WS0006": "ncd_aimsidewinder1x",
+        "WS0007": "ncd_aimsidewinder1x"
       }
     }
   ],

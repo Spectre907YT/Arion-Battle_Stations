@@ -14,3 +14,7 @@ ncd_fighteremlmed,WEAPON,"A spinal chemrail for use by some NCD co fighters, its
 ncd_fighteremllar,WEAPON,"A spinal chemrail for use by the largest of NCD co fighters, its main job is to deal heavy damage to enemies from a safer distance.",,,
 ncd_hydra7x,WEAPON,A rocket pod built for use by fighter craft.,,,
 ncd_hydra19x,WEAPON,A rocket pod built for use by fighter craft.,,,
+ncd_aimsidewinder1x,WEAPON,An anti fighter missile pod made for use by fighter craft.,,,
+ncd_aimsidewinder2x,WEAPON,An anti fighter missile pod made for use by fighter craft.,,,
+ncd_armharm1x,WEAPON,A missile purpose built to Supress Enemy Air Defenses (SEAD) for use by fighter craft.,,,
+ncd_admmaldpod,WEAPON,A decoy launcher made to saturate enemy point defenses.,,,

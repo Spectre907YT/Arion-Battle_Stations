@@ -14,6 +14,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "vulcan",
+        "WS0002": "ncd_aimsidewinder1x",
+        "WS0003": "ncd_aimsidewinder1x",
         "WS0004": "ncd_hydra7x",
         "WS0005": "ncd_hydra7x"
       }

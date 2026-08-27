@@ -22,7 +22,7 @@
     {
       "id": "WS0001",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
@@ -31,7 +31,7 @@
     {
       "id": "WS0002",
       "size": "MEDIUM",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
