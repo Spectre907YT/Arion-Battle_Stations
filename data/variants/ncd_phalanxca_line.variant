@@ -4,22 +4,21 @@
   "displayName": "Line",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 10,
+  "fluxVents": 13,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "heavyarmor",
     "targetingunit",
-    "armoredweapons",
-    "autorepair",
-    "fluxbreakers"
+    "hardenedshieldemitter",
+    "stabilizedshieldemitter",
+    "heavyarmor"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "gauss"
+        "WS0012": "ncd_spinalemlmed"
       }
     },
     {
@@ -54,6 +53,6 @@
   ],
   "modules": [],
   "wings": [
-    "ncd_a1skyhawk_fighter_wing"
+    "ncd_av3harrier_fighter_wing"
   ]
 }

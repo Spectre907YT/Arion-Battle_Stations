@@ -1,21 +1,23 @@
 {
-  "hullName": "A-1 Skyhawk",
-  "hullId": "ncd_a1skyhawk",
+  "hullName": "A/V-3 Harrier",
+  "hullId": "ncd_av3harrier",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/ncd_a1skyhawk.png",
+  "spriteName": "graphics/ships/ncd_av3harrier.png",
   "style": "NCD Co",
-  "height": 32,
+  "height": 36,
   "width": 22,
-  "center": [11, 16],
-  "collisionRadius": 22,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 18,
+  "center": [11, 18],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 22,
   "viewOffset": 0,
   "builtInMods": [
     "no_weapon_flux"
   ],
   "builtInWeapons": {
-    "WS0001": "vulcan"
+    "WS0001": "vulcan",
+    "WS0002": "ncd_aimsidewinder1x",
+    "WS0003": "ncd_aimsidewinder1x"
   },
   "weaponSlots": [
     {
@@ -23,27 +25,27 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 10,
+      "arc": 0,
       "angle": 0,
-      "locations": [8, -1.5]
+      "locations": [0, -1]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-4.5, 10.5]
+      "locations": [-4, -11]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "MISSILE",
+      "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-4.5, -10.5]
+      "locations": [-4, 11]
     },
     {
       "id": "WS0004",
@@ -52,7 +54,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [1, 5]
+      "locations": [-2, -8]
     },
     {
       "id": "WS0005",
@@ -60,13 +62,31 @@
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
+      "angle": -0,
+      "locations": [-2, 8]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
       "angle": 0,
-      "locations": [1, -5]
+      "locations": [3, -4]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3, 4]
     }
   ],
   "engineSlots": [
     {
-      "location": [-16, -0],
+      "location": [-13, -0],
       "length": 12.5,
       "width": 5,
       "angle": 180,
@@ -75,9 +95,9 @@
     }
   ],
   "bounds": [
-    -4.5, -11,
-    16, 0,
-    -4.5, 11,
-    -16, 0
+    -5, -10,
+    17, -0,
+    -5, 10,
+    -17, -0
   ]
 }

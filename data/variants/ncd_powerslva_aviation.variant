@@ -3,8 +3,8 @@
   "hullId": "ncd_powerslva",
   "displayName": "Aviation",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 20,
+  "fluxCapacitors": 10,
+  "fluxVents": 11,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -38,6 +38,6 @@
     "ncd_f2falcon_fighter_wing",
     "ncd_a1skyhawk_fighter_wing",
     "ncd_a1skyhawk_fighter_wing",
-    "ncd_a1skyhawk_fighter_wing"
+    "ncd_av3harrier_fighter_wing"
   ]
 }

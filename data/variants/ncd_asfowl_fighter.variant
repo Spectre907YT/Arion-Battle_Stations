@@ -13,8 +13,20 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "ncd_fighteremllar",
+        "WS0001": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ncd_fighteremllar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
         "WS0003": "ncd_aimsidewinder2x",
         "WS0004": "ncd_aimsidewinder2x",
         "WS0005": "ncd_aimsidewinder2x",

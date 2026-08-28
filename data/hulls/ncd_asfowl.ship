@@ -15,6 +15,10 @@
     "no_weapon_flux",
     "advancedcore"
   ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "ncd_fighteremllar"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",

@@ -13,13 +13,31 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "ncd_admmaldpod",
-        "WS0003": "ncd_admmaldpod",
-        "WS0004": "ncd_armharm1x",
-        "WS0005": "ncd_armharm1x",
-        "WS0006": "ncd_aimsidewinder1x",
-        "WS0007": "ncd_aimsidewinder1x"
+        "WS0001": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ncd_admmaldpod",
+        "WS0005": "ncd_admmaldpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ncd_armharm1x",
+        "WS0007": "ncd_armharm1x"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "ncd_aimsidewinder1x",
+        "WS0003": "ncd_aimsidewinder1x"
       }
     }
   ],

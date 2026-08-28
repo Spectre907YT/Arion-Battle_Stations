@@ -4,14 +4,14 @@
   "displayName": "Line",
   "goalVariant": true,
   "fluxCapacitors": 2,
-  "fluxVents": 10,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "heavyarmor",
     "targetingunit",
-    "fluxbreakers",
-    "autorepair"
+    "hardenedshieldemitter",
+    "stabilizedshieldemitter",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
@@ -42,6 +42,6 @@
   ],
   "modules": [],
   "wings": [
-    "ncd_a1skyhawk_fighter_wing"
+    "ncd_av3harrier_fighter_wing"
   ]
 }
