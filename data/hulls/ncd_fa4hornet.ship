@@ -1,0 +1,147 @@
+{
+  "hullName": "F/A-4 Hornet",
+  "hullId": "ncd_fa4hornet",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_fa4hornet.png",
+  "style": "NCD Co",
+  "height": 46,
+  "width": 36,
+  "center": [18, 23],
+  "collisionRadius": 32.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "vulcan",
+    "WS0002": "ncd_aimsidewinder1x",
+    "WS0003": "ncd_aimsidewinder1x"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, 18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7, -18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 7]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -10]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 10]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -14]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 14]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2, 4]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 1.5],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-20, -1.5],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -8, -17,
+    23, -0,
+    -8, 17,
+    -23, -0
+  ]
+}
