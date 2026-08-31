@@ -1,23 +1,26 @@
 {
 
 	"combatSmallForSmallFleet":{
-		"ncd_protectordd_line":3,
+		"ncd_protectordd_line":2,
 
 	},
 
 	"combatSmall":{
-		"ncd_protectordd_line":3,
+		"ncd_protectordd_line":2,
 
 	},
 
 	"combatLarge":{
-		"ncd_protectordd_line":3,
-		"ncd_phalanxca_line":2,
+		"ncd_phalanxca_line":1,
 
 	},
 
+	"combatCapital":{
+		"ncd_omegabc_multirole":1,
+	},
+
 	"carrierSmall":{
-		"ncd_principalityddv_line":2,
+		"ncd_principalityddv_line":1,
 
 	},
 

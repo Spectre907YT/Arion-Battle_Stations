@@ -1,7 +1,4 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Medium Spinal EML,ncd_spinalemlmed,5,,5000,1100,,1500,,500,0,25,,,,ENERGY,2500,,0.5,4.5,,,,,,,,1650,,,1000,,,,"no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,
-Medium Fighter EML,ncd_fighteremlmed,5,,1000,1000,,600,,100,0,15,,,,ENERGY,750,,0.5,4.5,,,,,,,,1500,,,500,,,,"kinetic15, LR, no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,
-Large Fighter EML,ncd_fighteremllar,5,,2000,1000,,1500,,500,0,20,,,,ENERGY,2500,,0.5,5.5,,,,,,,,1650,,,750,,,,"no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,
 Hydra 7x Pod,ncd_hydra7x,3,,10,1000,,100,,5,0,2,7,0.25,1,HIGH_EXPLOSIVE,5,,0,0.2,1,,0,20,10,10,,500,100,3,50,,,,"rocket13, strike8, no_sell, no_dealer, no_drop_salvage",,NCD Co,,Anti Armor (Fighter),Fast,None,,,,,,,,
 Hydra 19x Pod,ncd_hydra19x,3,,25,1000,,100,,5,0,4,19,0.2,1,HIGH_EXPLOSIVE,5,,0,0.25,1,,0,25,10,10,,500,100,3,50,,,,"rocket13, strike8, no_sell, no_dealer, no_drop_salvage",,NCD Co,,Anti Armor (Fighter),Fast,None,,,,,,,,
 AIM-1 Sidewinder 1x,ncd_aimsidewinder1x,4,,100,1000,,150,,10,30,3,1,0.05,1,ENERGY,10,,0,1,1,,0,0,0,0,,400,100,4,150,,,"ANTI_FTR, DO_NOT_AIM","utility8, missile0, no_sell, no_dealer, no_drop_salvage",,NCD Co,,Anti Small Craft (Fighter),Fast,Excellent,,,,,,,,
@@ -9,3 +6,8 @@ AIM-1 Sidewinder 2x,ncd_aimsidewinder2x,4,,200,1000,,150,,10,30,5,2,0.05,1,ENERG
 ARM-1 HARM,ncd_armharm1x,4,,350,1600,,250,2000,20,10,5,1,0.033,1,KINETIC,20,,0,1,1,,0,0,0,,,400,100,5,300,,,DO_NOT_AIM,"missile12, strike9, no_sell, no_dealer, no_drop_salvage",,NCD Co,,SEAD (Fighter),Fast,Medium,,,,,,,,
 ADM-1 MALD,ncd_admmaldpod,3,,25,2000,,25,100,5,50,3,8,0.2,2,FRAGMENTATION,1,,0,0.25,1,,0,0,0,0,,200,100,15,200,,,"DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, no_sell, no_dealer, no_drop_salvage",,NCD Co,,SEAD (Fighter),Slow,High,,,,,,,,
 AGM-3 Harpoon,ncd_agmharpoon1x,4,,300,1500,,500,,25,30,5,1,,,HIGH_EXPLOSIVE,25,,0,1,1,,0,0,0,,,350,100,6,250,,,DO_NOT_AIM,"missile8, strike3, no_sell, no_dealer, no_drop_salvage",,NCD Co,,Finisher (Fighter),Fast,Medium,,,,,,,,
+Medium Fighter EML,ncd_fighteremlmed,5,,1000,1000,,600,,100,0,15,,,,ENERGY,750,,0.5,4.5,,,,,,,,1500,,,500,,,,"kinetic15, LR, no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,
+Large Fighter EML,ncd_fighteremllar,5,,2000,1000,,1500,,500,0,20,,,,ENERGY,2500,,0.5,5.5,,,,,,,,1650,,,750,,,,"no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium Spinal EML,ncd_spinalemlmed,5,,5000,1100,,2000,,500,0,25,,,,ENERGY,3000,,0.5,6,,,,,,,,1650,,,1000,,,,"no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,
+Large Spinal EML,ncd_spinalemllar,5,,10000,1200,,4500,,1000,0,50,,,,ENERGY,6750,,0.5,12.5,,,,,,,,1800,,,2000,,,,"no_sell, no_dealer, no_drop_salvage",,NCD Co,,Bombardment,,,,,,,,,,

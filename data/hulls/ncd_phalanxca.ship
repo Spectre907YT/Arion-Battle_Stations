@@ -53,10 +53,9 @@
       "type": "LAUNCH_BAY",
       "mount": "HIDDEN",
       "arc": 360,
-      "angle": 0,
+      "angle": 180,
       "locations": [
         -84, -0,
-        -83, -0
       ]
     },
     {
