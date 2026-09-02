@@ -54,9 +54,7 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 180,
-      "locations": [
-        -84, -0,
-      ]
+      "locations": [-84, -0]
     },
     {
       "id": "WS0004",
@@ -99,7 +97,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 115,
+      "arc": 200,
       "angle": 90,
       "locations": [-22, 31]
     },
@@ -108,7 +106,7 @@
       "size": "SMALL",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 115,
+      "arc": 200,
       "angle": -90,
       "locations": [-22, -31]
     },

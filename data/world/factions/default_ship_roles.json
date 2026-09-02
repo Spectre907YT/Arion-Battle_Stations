@@ -16,7 +16,7 @@
 	},
 
 	"combatCapital":{
-		"ncd_omegabc_multirole":1,
+		"ncd_omegabc_assault":1,
 	},
 
 	"carrierSmall":{
@@ -27,6 +27,10 @@
 	"carrierMedium":{
 		"ncd_powerslva_aviation":1,
 
+	},
+
+	"carrierLarge":{
+		"ncd_cherubimcv_multirole":1,
 	},
 
 	"personnelMedium":{

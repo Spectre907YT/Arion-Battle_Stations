@@ -1,0 +1,233 @@
+{
+  "hullName": "Cherubim",
+  "hullId": "ncd_cherubimcv",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ncd_cherubimcv.png",
+  "style": "NCD Co",
+  "height": 405,
+  "width": 224,
+  "center": [112, 202.5],
+  "collisionRadius": 237.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 221.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ncd_advconstruction",
+    "ncd_atmodeck",
+    "ncd_integratedew",
+    "recovery_shuttles"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 62.5,
+      "locations": [109.5, 32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -67,
+      "locations": [109.5, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 145,
+      "locations": [-187.5, 24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -145,
+      "locations": [-187.5, -24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 165,
+      "angle": 63.5,
+      "locations": [-14.5, 89]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 185,
+      "angle": 128,
+      "locations": [-100.5, 89]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -57,
+      "locations": [-7.5, -80]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -138,
+      "locations": [-108.5, -80]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [152, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": -0,
+      "locations": [-32.5, -91]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 180,
+      "locations": [-83.5, -91]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -52, -65.5,
+        -63, 85.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-105, -52.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        31, 8,
+        32.5, -23.5
+      ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -62, 58.5,
+        -49.5, 30.5
+      ]
+    },
+    {
+      "id": "LB 6",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [76, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-143, 94],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-143, -94],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-163, 64],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-163, -64],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    202, -14,
+    202, 14,
+    72, 46,
+    48, 70,
+    4, 70,
+    -25, 111,
+    -92, 111,
+    -143, 103,
+    -143, 78,
+    -163, 73,
+    -163, 54,
+    -132, 48,
+    -202, 33,
+    -202, -33,
+    -133, -49,
+    -163, -54,
+    -163, -73,
+    -143, -79,
+    -143, -104,
+    -93, -111,
+    -25, -111,
+    11, -58
+  ]
+}
