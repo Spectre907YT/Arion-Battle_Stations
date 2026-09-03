@@ -4,7 +4,7 @@
   "displayName": "Aviation",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 11,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -19,17 +19,17 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan"
+        "WS0005": "pilum"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "vulcan",
-        "WS0003": "vulcan",
-        "WS0004": "vulcan",
-        "WS0005": "pilum"
+        "WS0001": "ncd_phalanxciws",
+        "WS0002": "ncd_phalanxciws",
+        "WS0003": "ncd_phalanxciws",
+        "WS0004": "ncd_phalanxciws"
       }
     }
   ],

@@ -16,7 +16,7 @@
     "advancedcore"
   ],
   "builtInWeapons": {
-    "WS0001": "vulcan",
+    "WS0001": "ncd_phalanxciws",
     "WS0002": "ncd_fighteremllar"
   },
   "weaponSlots": [

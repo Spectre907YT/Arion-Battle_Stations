@@ -4,7 +4,7 @@
   "displayName": "Line",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 13,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -40,14 +40,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "vulcan",
-        "WS0005": "vulcan",
-        "WS0006": "vulcan",
-        "WS0007": "vulcan",
-        "WS0008": "vulcan",
-        "WS0009": "vulcan",
-        "WS0010": "vulcan",
-        "WS0011": "vulcan"
+        "WS0004": "ncd_phalanxciws",
+        "WS0005": "ncd_phalanxciws",
+        "WS0006": "ncd_phalanxciws",
+        "WS0007": "ncd_phalanxciws",
+        "WS0008": "ncd_phalanxciws",
+        "WS0009": "ncd_phalanxciws",
+        "WS0010": "ncd_phalanxciws",
+        "WS0011": "ncd_phalanxciws"
       }
     }
   ],

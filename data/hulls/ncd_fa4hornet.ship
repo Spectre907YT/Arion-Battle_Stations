@@ -15,7 +15,7 @@
     "no_weapon_flux"
   ],
   "builtInWeapons": {
-    "WS0001": "vulcan",
+    "WS0001": "ncd_phalanxciws",
     "WS0002": "ncd_aimsidewinder1x",
     "WS0003": "ncd_aimsidewinder1x"
   },

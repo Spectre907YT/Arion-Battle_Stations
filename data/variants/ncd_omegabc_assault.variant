@@ -4,7 +4,7 @@
   "displayName": "Assault",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 50,
+  "fluxVents": 37,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,34 +17,40 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "ncd_spinalemllar",
-        "WS0002": "autopulse",
-        "WS0003": "autopulse",
-        "WS0004": "heavyneedler",
-        "WS0005": "heavyneedler"
       }
     },
     {
       "autofire": false,
       "mode": "ALTERNATING",
-      "weapons": {}
+      "weapons": {
+        "WS0002": "autopulse",
+        "WS0003": "autopulse"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "pdburst",
-        "WS0007": "pdburst",
-        "WS0012": "pdburst",
-        "WS0013": "pdburst",
-        "WS0014": "pdburst",
-        "WS0015": "pdburst",
-        "WS0016": "pdburst"
+        "WS0004": "heavyneedler",
+        "WS0005": "heavyneedler"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0006": "ncd_phalanxciws",
+        "WS0007": "ncd_phalanxciws",
+        "WS0008": "ncd_phalanxciws",
+        "WS0009": "ncd_phalanxciws",
+        "WS0010": "ncd_phalanxciws",
+        "WS0011": "ncd_phalanxciws",
+        "WS0012": "ncd_phalanxciws",
+        "WS0013": "ncd_phalanxciws",
+        "WS0014": "ncd_phalanxciws",
+        "WS0015": "ncd_phalanxciws",
+        "WS0016": "ncd_phalanxciws"
+      }
     }
   ],
   "modules": [],
