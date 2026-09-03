@@ -4,7 +4,7 @@
   "displayName": "Line",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 12,
+  "fluxVents": 11,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -26,7 +26,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "ncd_phalanxciws",
+        "WS0003": "ncd_milleniumciws",
         "WS0006": "ncd_phalanxciws",
         "WS0007": "ncd_phalanxciws"
       }

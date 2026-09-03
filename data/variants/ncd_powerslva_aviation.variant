@@ -4,7 +4,7 @@
   "displayName": "Aviation",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 7,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -26,8 +26,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "ncd_phalanxciws",
-        "WS0002": "ncd_phalanxciws",
+        "WS0001": "ncd_milleniumciws",
+        "WS0002": "ncd_milleniumciws",
         "WS0003": "ncd_phalanxciws",
         "WS0004": "ncd_phalanxciws"
       }

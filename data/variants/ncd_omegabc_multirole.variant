@@ -3,8 +3,8 @@
   "hullId": "ncd_omegabc",
   "displayName": "Multirole",
   "goalVariant": true,
-  "fluxCapacitors": 16,
-  "fluxVents": 37,
+  "fluxCapacitors": 20,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,7 +16,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "ncd_spinalemllar",
+        "WS0001": "ncd_spinalemllar"
       }
     },
     {
@@ -33,8 +33,8 @@
       "weapons": {
         "WS0004": "dualflak",
         "WS0005": "dualflak",
-        "WS0006": "ncd_phalanxciws",
-        "WS0007": "ncd_phalanxciws",
+        "WS0006": "ncd_milleniumciws",
+        "WS0007": "ncd_milleniumciws",
         "WS0008": "ncd_phalanxciws",
         "WS0009": "ncd_phalanxciws",
         "WS0010": "ncd_phalanxciws",
@@ -43,7 +43,7 @@
         "WS0013": "ncd_phalanxciws",
         "WS0014": "ncd_phalanxciws",
         "WS0015": "ncd_phalanxciws",
-        "WS0016": "ncd_phalanxciws"
+        "WS0016": "ncd_milleniumciws"
       }
     },
     {

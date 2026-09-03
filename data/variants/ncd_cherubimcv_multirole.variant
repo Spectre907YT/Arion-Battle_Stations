@@ -3,7 +3,7 @@
   "hullId": "ncd_cherubimcv",
   "displayName": "Multirole",
   "goalVariant": true,
-  "fluxCapacitors": 37,
+  "fluxCapacitors": 31,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -22,12 +22,12 @@
         "WS0002": "ncd_phalanxciws",
         "WS0003": "ncd_phalanxciws",
         "WS0004": "ncd_phalanxciws",
-        "WS0005": "ncd_phalanxciws",
-        "WS0006": "ncd_phalanxciws",
-        "WS0007": "ncd_phalanxciws",
-        "WS0008": "ncd_phalanxciws",
-        "WS0009": "ncd_phalanxciws",
-        "WS0010": "ncd_phalanxciws"
+        "WS0005": "ncd_milleniumciws",
+        "WS0006": "ncd_milleniumciws",
+        "WS0007": "ncd_milleniumciws",
+        "WS0008": "ncd_milleniumciws",
+        "WS0009": "ncd_milleniumciws",
+        "WS0010": "ncd_milleniumciws"
       }
     }
   ],

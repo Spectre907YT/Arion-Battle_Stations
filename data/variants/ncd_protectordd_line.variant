@@ -3,7 +3,7 @@
   "hullId": "ncd_protectordd",
   "displayName": "Line",
   "goalVariant": true,
-  "fluxCapacitors": 2,
+  "fluxCapacitors": 1,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -32,7 +32,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "ncd_phalanxciws",
+        "WS0003": "ncd_milleniumciws",
         "WS0004": "ncd_phalanxciws",
         "WS0005": "ncd_phalanxciws",
         "WS0006": "ncd_phalanxciws",

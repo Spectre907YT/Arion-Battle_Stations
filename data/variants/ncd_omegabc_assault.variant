@@ -3,8 +3,8 @@
   "hullId": "ncd_omegabc",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 37,
+  "fluxCapacitors": 30,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,6 +17,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "ncd_spinalemllar",
+        "WS0006": "ncd_milleniumciws",
+        "WS0007": "ncd_milleniumciws"
       }
     },
     {
@@ -39,17 +41,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "ncd_phalanxciws",
-        "WS0007": "ncd_phalanxciws",
         "WS0008": "ncd_phalanxciws",
         "WS0009": "ncd_phalanxciws",
         "WS0010": "ncd_phalanxciws",
         "WS0011": "ncd_phalanxciws",
-        "WS0012": "ncd_phalanxciws",
-        "WS0013": "ncd_phalanxciws",
-        "WS0014": "ncd_phalanxciws",
-        "WS0015": "ncd_phalanxciws",
-        "WS0016": "ncd_phalanxciws"
+        "WS0012": "ncd_milleniumciws",
+        "WS0013": "ncd_milleniumciws",
+        "WS0014": "ncd_milleniumciws",
+        "WS0015": "ncd_milleniumciws",
+        "WS0016": "ncd_milleniumciws"
       }
     }
   ],
