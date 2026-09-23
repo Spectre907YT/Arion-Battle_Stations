@@ -8,14 +8,14 @@
   "turretSprite": "graphics/weapons/ncd_milleniumciws_turret.png",
   "hardpointSprite": "graphics/weapons/ncd_milleniumciws_hardpoint.png",
   "turretOffsets": [
-    12,
+    14,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    19,
+    21,
     0
   ],
   "hardpointAngleOffsets": [

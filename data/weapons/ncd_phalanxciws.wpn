@@ -8,14 +8,14 @@
   "turretSprite": "graphics/weapons/ncd_phalanxciws_turret_base.png",
   "hardpointSprite": "graphics/weapons/ncd_phalanxciws_hardpoint_base.png",
   "turretOffsets": [
-    12,
+    13,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    19,
+    20,
     0
   ],
   "hardpointAngleOffsets": [
