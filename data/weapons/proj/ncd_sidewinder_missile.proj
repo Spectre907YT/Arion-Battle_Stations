@@ -10,9 +10,9 @@
 	"explosionColor":[100,100,255,255],
 	"explosionRadius":50,
 	"engineSpec":{"turnAcc":1750,
-				  "turnRate":250,
-				  "acc":1000,
-				  "dec":500},
+				  "turnRate":350,
+				  "acc":800,
+				  "dec":400},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-13, 0],
 				    #"style":"MISSILE_HIGH_TECH",
@@ -32,5 +32,19 @@
 				    "width":7.0,
 				    "length":40.0,
 				    "angle":180.0},
-				    ]
+				    ],
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":20,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":30,
+									 "coreRadius":20,
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":1,
+									 "particleCount":100,
+									 "particleColor":[255,155,155,255],
+									 "sound":"explosion_flak"}
+					}
 }

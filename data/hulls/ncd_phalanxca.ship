@@ -23,7 +23,7 @@
     {
       "id": "WS0001",
       "size": "MEDIUM",
-      "type": "UNIVERSAL",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 290,
       "angle": 0,
