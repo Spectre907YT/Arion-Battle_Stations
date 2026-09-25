@@ -1,0 +1,47 @@
+{
+  "variantId": "ncd_ea4growler_fighter",
+  "hullId": "ncd_ea4growler",
+  "displayName": "Electronic Warfare",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ncd_phalanxciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ncd_ewpod",
+        "WS0005": "ncd_ewpod",
+        "WS0006": "ncd_ewpod",
+        "WS0007": "ncd_ewpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ncd_ewpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ncd_aimsidewinder1x",
+        "WS0009": "ncd_aimsidewinder1x"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
