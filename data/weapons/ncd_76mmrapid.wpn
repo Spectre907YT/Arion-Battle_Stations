@@ -1,0 +1,37 @@
+{
+  "id": "ncd_76mmrapid",
+  "specClass": "projectile",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/ncd_76mmrapid_turret_base.png",
+  "turretGunSprite": "graphics/weapons/ncd_76mmrapid_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/ncd_76mmrapid_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/ncd_76mmrapid_hardpoint_recoil.png",
+  "visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+  "turretOffsets": [
+    24,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    37,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+	"barrelMode":"ALTERNATING",
+	"animationType":"MUZZLE_FLASH",  
+	"muzzleFlashSpec":{"length":40.0,  
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.5,
+					   "particleCount":12,
+					   "particleColor":[255,240,165,200]},	
+	"projectileSpecId":"ncd_76mmairburst_shot",  
+	"fireSoundTwo":"heavy_mauler_fire",	
+}

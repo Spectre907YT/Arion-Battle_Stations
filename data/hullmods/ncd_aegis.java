@@ -1,5 +1,7 @@
 package data.hullmods;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Iterator;
 import java.util.List;
 import java.util.HashMap;
@@ -14,6 +16,7 @@ import com.fs.starfarer.api.combat.WeaponAPI.AIHints;
 import com.fs.starfarer.api.combat.WeaponAPI.WeaponSize;
 import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import data.scripts.everyframe.ncd_BlockedHullmodDisplayScript;
 
 public class ncd_aegis extends BaseHullMod {
 
@@ -45,7 +48,14 @@ public class ncd_aegis extends BaseHullMod {
 	}
 	
 
-
+	private static final Set<String> BLOCKED_HULLMODS = new HashSet();
+        static {
+        // These hullmods will automatically be removed
+        // This prevents unexplained hullmod blocking
+            BLOCKED_HULLMODS.add("eccm");
+            BLOCKED_HULLMODS.add("ecm");
+            BLOCKED_HULLMODS.add("pointdefenseai");
+        }
 
 
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -92,8 +102,12 @@ public class ncd_aegis extends BaseHullMod {
 			}
 		}
 
-
-
+		for (String tmp : BLOCKED_HULLMODS) {
+                    if (ship.getVariant().getHullMods().contains(tmp)) {
+                        ship.getVariant().removeMod(tmp);
+                        ncd_BlockedHullmodDisplayScript.showBlocked(ship);
+                    }
+                }
 	}
 	
 	public String getDescriptionParam(int index, HullSize hullSize) {

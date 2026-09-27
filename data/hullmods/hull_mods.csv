@@ -17,3 +17,4 @@ Each missile also receives a significantly improved guidance algorithm, as well 
 Enemy ECM range reduction is also reduced by %s. When deployed, the ship also grants %s/%s/%s/%s ECM rating, depending on this ship's hull size.","Improves PD, missile speed and guidance, reduces effect of enemy EW and increases ship ECM rating.","Fully negates the weapon range reduction, and makes the ship's missiles always ignore flares. 
 
 All small non-missile, non-strike weapons are classified as ""point-defense"", automatically target missiles, and are affected by point-defense stat modifiers.",graphics/hullmods/ncd_aegis.png
+HULLMOD CONFLICT,ncd_blockedhullmod,,,,hide_in_codex,,,FALSE,TRUE,,0,0,0,0,data.hullmods.ncd_blockedhullmod,"%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.",Blocks incompatible hullmods.,,graphics/icons/intel/investigation.png

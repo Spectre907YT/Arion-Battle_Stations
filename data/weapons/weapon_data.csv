@@ -18,3 +18,5 @@ Millenium CIWS,ncd_milleniumciws,3,0.25,600,500,,21,,3,100,6,,,,FRAGMENTATION,11
 SpaceRAM CIWS,ncd_searamciws,4,0.2,1000,1000,,150,,20,50,6,11,0.5,1,ENERGY,45,,0,0.5,,,0,11,1,11,,400,100,5,100,,,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, DIRECT_AIM","pd7, missile0, merc, ind, rare_bp",,NCD Co,,Point Defense,Fast,Excellent,,,,,,,,
 LACIS CIWS,ncd_laserciws,3,0.25,750,500,300,,,0,100,6,15,0.6,3,ENERGY,,200,0,0,0.334,0,,,,,10000,,,,,,,PD,"pd9, beam6, merc, ind, rare_bp",,NCD Co,,Point Defense,,,,,,,,,,
 Spaceranger RCWS,ncd_searangerrcws,3,0.25,400,400,,20,,1,50,4,200,8,10,HIGH_EXPLOSIVE,14,,0,0.06,,,0,5,1,5,,1600,,,10,,,"PD, PD_ALSO","pd6, he4, merc, ind, rare_bp",,NCD Co,,Anti Armor,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+76mm Super Rapid,ncd_76mmrapid,4,0.2,3000,700,,152,,10,45,12,,,,HIGH_EXPLOSIVE,137,,0,0.5,,,0,10,1,10,,700,,,50,,,"PD, PD_ALSO","pd9, he7, merc, ind, rare_bp",,NCD Co,,Anti Armor,,,,,,,,,,

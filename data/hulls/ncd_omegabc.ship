@@ -37,7 +37,7 @@
       "arc": 275,
       "angle": 0,
       "locations": [92, -0],
-      "renderOrderMod": 100
+      "renderOrderMod": 50
     },
     {
       "id": "WS0003",
@@ -54,7 +54,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 240,
+      "arc": 225,
       "angle": 90,
       "locations": [-38, 69],
       "renderOrderMod": 100
@@ -64,7 +64,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 240,
+      "arc": 225,
       "angle": -90,
       "locations": [-38, -69],
       "renderOrderMod": 100
