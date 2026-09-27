@@ -1,0 +1,13 @@
+{
+	"id":"ncd_hybridfeed",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.HybridFeedStats",
+	
+	"weaponGlowColor":[100,100,255,155],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -18,7 +18,7 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0004": "ncd_ewpod",
         "WS0005": "ncd_ewpod",
@@ -35,7 +35,7 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0008": "ncd_aimsidewinder1x",
         "WS0009": "ncd_aimsidewinder1x"

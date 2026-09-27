@@ -1,7 +1,7 @@
 {
 
 	"combatSmallForSmallFleet":{
-		"ncd_protectordd_line":2,
+		"ncd_protectordd_line":1,
 
 	},
 
@@ -16,7 +16,7 @@
 	},
 
 	"combatCapital":{
-		"ncd_omegabc_assault":1,
+		"ncd_omegabc_assault":0.25,
 	},
 
 	"carrierSmall":{
@@ -30,7 +30,7 @@
 	},
 
 	"carrierLarge":{
-		"ncd_cherubimcv_multirole":1,
+		"ncd_cherubimcv_multirole":0,
 	},
 
 	"personnelMedium":{
