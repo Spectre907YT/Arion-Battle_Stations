@@ -18,8 +18,7 @@
 	"bulletSprite":"graphics/missiles/shell_large_blue.png",
 	#"bulletSprite":"",
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":20,
-					#"vsMissileRange":100,
+					"range":15,
 					"explosionSpec":{"duration":0.1f,
 									 "radius":30,
 									 "coreRadius":20, # full damage within core radius - also equal to proximity fuse range
