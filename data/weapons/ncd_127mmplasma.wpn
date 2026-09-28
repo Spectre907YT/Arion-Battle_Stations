@@ -1,0 +1,33 @@
+{
+  "id": "ncd_127mmplasma",
+  "specClass": "projectile",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/ncd_127mmplasma_turret.png",
+  "hardpointSprite": "graphics/weapons/ncd_127mmplasma_hardpoint.png",
+  "turretOffsets": [
+    30,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    50,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+	"barrelMode":"ALTERNATING", 
+	"animationType":"MUZZLE_FLASH",  
+	"muzzleFlashSpec":{"length":40.0,   
+					   "spread":5.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.5,
+					   "particleCount":12,
+					   "particleColor":[255,240,165,200]},	
+	"projectileSpecId":"ncd_127mm_shot",  
+	"fireSoundTwo":"heavy_mauler_fire",	
+}
