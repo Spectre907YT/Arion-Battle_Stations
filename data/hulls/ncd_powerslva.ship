@@ -37,24 +37,6 @@
       "locations": [-56, -28]
     },
     {
-      "id": "WS0003",
-      "size": "SMALL",
-      "type": "HYBRID",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": -98,
-      "locations": [-36, -62]
-    },
-    {
-      "id": "WS0004",
-      "size": "SMALL",
-      "type": "HYBRID",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": 98,
-      "locations": [-36, 62]
-    },
-    {
       "id": "LB 1",
       "size": "LARGE",
       "type": "LAUNCH_BAY",
@@ -107,9 +89,27 @@
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 10,
+      "arc": 0,
       "angle": 0,
-      "locations": [-17, -51]
+      "locations": [-20, -55]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 315,
+      "angle": 95,
+      "locations": [-36, 62]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -110,
+      "locations": [-41, -62]
     }
   ],
   "engineSlots": [

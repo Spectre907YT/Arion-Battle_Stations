@@ -3,7 +3,7 @@
   "hullId": "ncd_cherubimcv",
   "displayName": "Multirole",
   "goalVariant": true,
-  "fluxCapacitors": 31,
+  "fluxCapacitors": 43,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -23,21 +23,27 @@
         "WS0003": "ncd_phalanxciws",
         "WS0004": "ncd_phalanxciws",
         "WS0005": "ncd_milleniumciws",
-        "WS0006": "ncd_milleniumciws",
+        "WS0006": "ncd_searangerrcws",
         "WS0007": "ncd_milleniumciws",
-        "WS0008": "ncd_milleniumciws",
-        "WS0009": "ncd_milleniumciws",
-        "WS0010": "ncd_milleniumciws"
+        "WS0008": "ncd_searangerrcws",
+        "WS0009": "ncd_laserciws",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "ncd_searamciws"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "ncd_a1skyhawk_fighter_wing",
-    "ncd_a1skyhawk_fighter_wing",
     "ncd_f2falcon_fighter_wing",
     "ncd_fa4hornet_fighter_wing",
-    "ncd_fa4hornet_fighter_wing",
+    "ncd_ea4growler_fighter_wing",
+    "ncd_a1skyhawk_fighter_wing",
+    "ncd_a1skyhawk_fighter_wing",
     "ncd_av3harrier_fighter_wing"
   ]
 }

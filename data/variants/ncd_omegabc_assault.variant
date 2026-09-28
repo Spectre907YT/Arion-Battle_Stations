@@ -4,12 +4,11 @@
   "displayName": "Assault",
   "goalVariant": true,
   "fluxCapacitors": 30,
-  "fluxVents": 20,
+  "fluxVents": 18,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hardenedshieldemitter",
-    "stabilizedshieldemitter"
+    "heavyarmor"
   ],
   "weaponGroups": [
     {
@@ -20,19 +19,19 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0002": "autopulse",
-        "WS0003": "autopulse"
+        "WS0002": "ncd_quadplasma",
+        "WS0003": "ncd_quadplasma"
       }
     },
     {
       "autofire": true,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0004": "heavyneedler",
-        "WS0005": "heavyneedler"
+        "WS0004": "ncd_76mmrapid",
+        "WS0005": "ncd_76mmrapid"
       }
     },
     {
@@ -41,15 +40,21 @@
       "weapons": {
         "WS0006": "ncd_milleniumciws",
         "WS0007": "ncd_milleniumciws",
-        "WS0008": "ncd_phalanxciws",
-        "WS0009": "ncd_phalanxciws",
+        "WS0008": "ncd_laserciws",
+        "WS0009": "ncd_laserciws",
         "WS0010": "ncd_phalanxciws",
         "WS0011": "ncd_phalanxciws",
         "WS0012": "ncd_milleniumciws",
         "WS0013": "ncd_milleniumciws",
-        "WS0014": "ncd_milleniumciws",
-        "WS0015": "ncd_milleniumciws",
-        "WS0016": "ncd_milleniumciws"
+        "WS0014": "ncd_searangerrcws",
+        "WS0015": "ncd_searangerrcws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0016": "ncd_searamciws"
       }
     }
   ],
