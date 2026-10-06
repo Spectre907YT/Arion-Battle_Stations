@@ -2,7 +2,7 @@
 	"id":"ncd_arion",
 	"name":"Arion",
 	"author":"Spectre907",
-	"version":"0.0.12 Pre Alpha",
+	"version":"0.0.13 Pre Alpha",
 	"description":"The Remnants of Arion left in the Persean Sector. \n Special thanks to Protonus for helping me with the hullmod blocking.",
 	"gameVersion":"0.98",
 	"jars":["jars/secrit_ncd_co.jar"],

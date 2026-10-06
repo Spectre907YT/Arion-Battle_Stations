@@ -1,0 +1,222 @@
+{
+  "hullName": "Ophanim",
+  "hullId": "ncd_ophanimcvb",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/ncd_ophanimcvb.png",
+  "style": "NCD Co",
+  "height": 405,
+  "width": 224,
+  "center": [112, 202.5],
+  "collisionRadius": 237.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 221.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ncd_advconstruction",
+    "ncd_atmoflight",
+    "ncd_aegis",
+    "recovery_shuttles"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 0,
+      "locations": [71.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [35.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 90,
+      "locations": [-44.5, 76]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -90,
+      "locations": [-44.5, -76]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 0,
+      "locations": [12.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 57.5,
+      "locations": [-19.5, 32]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -57.5,
+      "locations": [-19.5, -32]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 122.5,
+      "locations": [-37.5, 32]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -122.5,
+      "locations": [-37.5, -32]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 180,
+      "locations": [-69.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-89, 18.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-89, -18.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [152.5, -0]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-73.5, 101.5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 270,
+      "locations": [-73.5, -100]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-150, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-143, 94],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-143, -94],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-163, 64],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-163, -64],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    202, -14,
+    202, 14,
+    11, 58,
+    -25, 111,
+    -93, 111,
+    -143, 104,
+    -143, 78,
+    -163, 73,
+    -163, 54,
+    -132, 48,
+    -202, 33,
+    -202, -33,
+    -133, -48,
+    -163, -54,
+    -163, -73,
+    -143, -78,
+    -143, -104,
+    -93, -111,
+    -25, -111,
+    11, -58
+  ]
+}
