@@ -25,7 +25,8 @@
       "mount": "TURRET",
       "arc": 300,
       "angle": 0,
-      "locations": [71.5, -0]
+      "locations": [71.5, -0],
+      "renderOrderMod": 50
     },
     {
       "id": "WS0002",
@@ -34,7 +35,8 @@
       "mount": "TURRET",
       "arc": 280,
       "angle": 0,
-      "locations": [35.5, -0]
+      "locations": [35.5, -0],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0003",
@@ -43,7 +45,8 @@
       "mount": "TURRET",
       "arc": 230,
       "angle": 90,
-      "locations": [-44.5, 76]
+      "locations": [-44.5, 76],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0004",
@@ -52,7 +55,8 @@
       "mount": "TURRET",
       "arc": 230,
       "angle": -90,
-      "locations": [-44.5, -76]
+      "locations": [-44.5, -76],
+      "renderOrderMod": 100
     },
     {
       "id": "WS0005",
@@ -61,7 +65,8 @@
       "mount": "TURRET",
       "arc": 245,
       "angle": 0,
-      "locations": [12.5, -0]
+      "locations": [12.5, -0],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0006",
@@ -70,7 +75,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 57.5,
-      "locations": [-19.5, 32]
+      "locations": [-19.5, 32],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0007",
@@ -79,7 +85,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -57.5,
-      "locations": [-19.5, -32]
+      "locations": [-19.5, -32],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0008",
@@ -88,7 +95,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 122.5,
-      "locations": [-37.5, 32]
+      "locations": [-37.5, 32],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0009",
@@ -97,7 +105,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -122.5,
-      "locations": [-37.5, -32]
+      "locations": [-37.5, -32],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0010",
@@ -106,7 +115,8 @@
       "mount": "TURRET",
       "arc": 245,
       "angle": 180,
-      "locations": [-69.5, -0]
+      "locations": [-69.5, -0],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0011",
