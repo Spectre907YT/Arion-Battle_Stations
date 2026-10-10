@@ -1,0 +1,63 @@
+{
+  "variantId": "ncd_alphabb_line",
+  "hullId": "ncd_alphabb",
+  "displayName": "Line",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ncd_406mmke",
+        "WS0002": "ncd_406mmke",
+        "WS0003": "ncd_406mmhe"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ncd_76mmrapid",
+        "WS0005": "ncd_76mmrapid",
+        "WS0006": "ncd_76mmrapid",
+        "WS0007": "ncd_76mmrapid"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "ncd_phalanxciws",
+        "WS0009": "ncd_phalanxciws",
+        "WS0010": "ncd_phalanxciws",
+        "WS0011": "ncd_phalanxciws",
+        "WS0012": "ncd_phalanxciws",
+        "WS0013": "ncd_phalanxciws",
+        "WS0014": "ncd_phalanxciws",
+        "WS0015": "ncd_phalanxciws",
+        "WS0016": "ncd_phalanxciws",
+        "WS0017": "ncd_phalanxciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "pilum",
+        "WS0019": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ncd_av3harrier_fighter_wing"
+  ]
+}

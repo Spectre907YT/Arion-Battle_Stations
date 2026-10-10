@@ -1,0 +1,65 @@
+{
+  "variantId": "ncd_ophanimcvb_line",
+  "hullId": "ncd_ophanimcvb",
+  "displayName": "Line",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tachyonlance",
+        "WS0004": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ncd_laserciws",
+        "WS0007": "ncd_laserciws",
+        "WS0008": "ncd_laserciws",
+        "WS0009": "ncd_laserciws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ncd_searamciws",
+        "WS0010": "ncd_searamciws"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "pilum",
+        "WS0012": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "ncd_fa4hornet_fighter_wing",
+    "ncd_fa4hornet_fighter_wing",
+    "ncd_fa4hornet_fighter_wing",
+    "ncd_fa4hornet_fighter_wing"
+  ]
+}

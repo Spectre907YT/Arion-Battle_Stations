@@ -12,7 +12,7 @@ Powers,ncd_powerslva,Planetary Assault Ship,NCD Co,targetingfeed,19,9000,900,750
 Omega,ncd_omegabc,Battlecruiser,NCD Co,microburn,30,10000,1000,16000,16000,1050,230,1,75,60,40,10,15,2500,OMNI,,180,0.357,0.9,,,400,600,450,450,8,56.25,8,450000,5,16,720,0.25,45,45,,,,,,,RENDER_ENGINES_BELOW_HULL,"merc, ind, rare_bp",0.1,,,,,
 Cherubim,ncd_cherubimcv,Fleet Carrier,NCD Co,targetingfeed,30,11000,1000,16000,16000,900,280,6,50,40,20,8,12,2800,OMNI,,180,0.2,0.8,,,450,900,500,600,12,50,8,500000,5,16,720,0.25,40,45,,,,,,,"RENDER_ENGINES_BELOW_HULL, CARRIER","merc, ind, rare_bp",0.1,,,,,
 Ophanim,ncd_ophanimcvb,Battlecarrier,NCD Co,maneuveringjets,33,12000,1250,16000,16000,900,280,4,40,30,15,6,9,3000,OMNI,,180,0.222,0.8,,,450,800,400,450,15,30,8,500000,5,16,720,0.25,50,50,,,,,,,"RENDER_ENGINES_BELOW_HULL, CARRIER, COMBAT, NO_AUTO_ESCORT","merc, ind, rare_bp",0.1,,,,,
-Alpha,ncd_alphabb,Fast Battleship,NCD Co,maneuveringjets,33,14000,1400,16000,16000,1000,300,1,50,40,20,9,14,2800,OMNI,,180,0.3,0.75,,,450,600,400,450,12,37.5,8,500000,5,16,720,0.25,50,50,,,,,,,,,,,,,,
+Alpha,ncd_alphabb,Fast Battleship,NCD Co,maneuveringjets,33,12000,1350,20000,20000,1000,300,1,50,40,20,9,14,2800,OMNI,,180,0.35,0.8,,,450,600,400,450,12,37.5,8,500000,5,16,720,0.25,50,50,,,,,,,RENDER_ENGINES_BELOW_HULL,"merc, ind, rare_bp",0.1,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ASF-100 Owl,ncd_asfowl,Superfighter,NCD Co,phaseteleporter,7,2000,250,3200,3200,800,,,360,180,180,180,360,80,OMNI,,180,0,0.5,,,1,2,,,,30,,200000,,,,,,,,,,,,,,,,,,,,
 ASF-102 Nosferatu,ncd_asfnosferatu,Superfighter,NCD Co,phaseteleporter,6,1000,200,2000,2000,500,,,250,125,125,250,500,45,OMNI,,180,0,0.5,,,1,1,,,,20,,100000,,,,,,,,,,,,,,,,,,,,
