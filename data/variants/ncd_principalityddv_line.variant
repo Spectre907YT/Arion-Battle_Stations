@@ -4,15 +4,13 @@
   "displayName": "Line",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 11,
+  "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "expanded_deck_crew",
     "targetingunit",
-    "hardenedshieldemitter",
-    "stabilizedshieldemitter",
-    "armoredweapons"
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {
