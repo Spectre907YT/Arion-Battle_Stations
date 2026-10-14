@@ -1,11 +1,16 @@
 {
 
 	"combatSmallForSmallFleet":{
-		"ncd_protectordd_line":1,
+		"ncd_ambushss_strike":0.5,
 	},
 
 	"combatSmall":{
+		"ncd_ambushss_strike":1,
+	},
+
+	"combatMedium":{
 		"ncd_protectordd_line":2,
+		
 	},
 
 	"combatLarge":{

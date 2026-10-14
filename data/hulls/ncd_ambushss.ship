@@ -1,0 +1,82 @@
+{
+  "hullName": "Ambush",
+  "hullId": "ncd_ambushss",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ncd_ambushss.png",
+  "style": "NCD Co",
+  "height": 120,
+  "width": 28,
+  "center": [14, 60],
+  "collisionRadius": 70,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ncd_integratedew",
+    "ncd_advconstruction",
+    "phasefield",
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [52, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [44, 10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [44, -10.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -60, -10,
+    -44, -10,
+    -25, -14,
+    38, -14,
+    53, -9,
+    60, 0,
+    60, -0,
+    53, 9,
+    38, 14,
+    -25, 14,
+    -44, 10,
+    -60, 10
+  ]
+}

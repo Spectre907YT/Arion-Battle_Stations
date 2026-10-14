@@ -1,0 +1,29 @@
+{
+  "variantId": "ncd_ambushss_strike",
+  "hullId": "ncd_ambushss",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons",
+    "phase_anchor",
+    "fluxcoil",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

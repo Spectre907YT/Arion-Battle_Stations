@@ -3,7 +3,7 @@
   "hullId": "ncd_cherubimcv",
   "displayName": "Multirole",
   "goalVariant": true,
-  "fluxCapacitors": 43,
+  "fluxCapacitors": 44,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -26,7 +26,7 @@
         "WS0006": "ncd_searangerrcws",
         "WS0007": "ncd_milleniumciws",
         "WS0008": "ncd_searangerrcws",
-        "WS0009": "ncd_laserciws",
+        "WS0009": "ncd_laserciws"
       }
     },
     {
