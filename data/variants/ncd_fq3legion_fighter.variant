@@ -1,0 +1,23 @@
+{
+  "variantId": "ncd_fq3legion_fighter",
+  "hullId": "ncd_fq3legion",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ncd_aimsidewinder1x",
+        "WS0002": "ncd_aimsidewinder1x"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

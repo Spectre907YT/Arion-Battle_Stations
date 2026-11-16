@@ -1,0 +1,52 @@
+{
+  "hullName": "FQ-3 Legion",
+  "hullId": "ncd_fq3legion",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_fq3legion.png",
+  "style": "NCD Co",
+  "height": 30,
+  "width": 36,
+  "center": [18, 11],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, -0],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -10, -17,
+    18, -0,
+    -10, 17
+  ]
+}

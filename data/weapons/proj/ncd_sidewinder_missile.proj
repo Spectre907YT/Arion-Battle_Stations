@@ -34,7 +34,7 @@
 				    "angle":180.0},
 				    ],
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":25,
+					"range":20,
 					"explosionSpec":{"duration":0.1f,
 									 "radius":30,
 									 "coreRadius":25,

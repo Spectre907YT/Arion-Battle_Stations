@@ -1,11 +1,7 @@
 {
 
-	"combatSmallForSmallFleet":{
-		"ncd_ambushss_strike":0.5,
-	},
-
 	"combatSmall":{
-		"ncd_ambushss_strike":1,
+		"ncd_angelbirdfs_escort":2,
 	},
 
 	"combatMedium":{
@@ -33,6 +29,10 @@
 	"carrierLarge":{
 		"ncd_cherubimcv_multirole":0.25,
 		"ncd_ophanimcvb_line":0.25,
+	},
+
+	"phaseSmall":{
+		"ncd_ambushss_strike":1,
 	},
 
 	"personnelMedium":{

@@ -31,10 +31,10 @@ public class ncd_HybridFeedStats extends BaseShipSystemScript {
 		float mult = 1f + ROF_BONUS * effectLevel;
 		float bonusPercent = (int) ((mult - 1f) * 100f);
 		if (index == 0) {
-			return new StatusData("ballistic rate of fire +" + (int) bonusPercent + "%", false);
+			return new StatusData("hybrid rate of fire +" + (int) bonusPercent + "%", false);
 		}
 		if (index == 1) {
-			return new StatusData("ballistic flux use -" + (int) FLUX_REDUCTION + "%", false);
+			return new StatusData("hybrid flux use -" + (int) FLUX_REDUCTION + "%", false);
 		}
 		return null;
 	}

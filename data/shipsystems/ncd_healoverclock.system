@@ -1,0 +1,10 @@
+{
+	"id":"ncd_healoverclock",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.ncd_HEALOverclockStats",
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

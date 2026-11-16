@@ -1,0 +1,27 @@
+{
+  "variantId": "ncd_angelbirdfs_escort",
+  "hullId": "ncd_angelbirdfs",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "hardenedshieldemitter",
+    "pointdefenseai",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ncd_heal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
