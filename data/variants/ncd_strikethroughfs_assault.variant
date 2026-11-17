@@ -1,0 +1,34 @@
+{
+  "variantId": "ncd_strikethroughfs_assault",
+  "hullId": "ncd_strikethroughfs",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "pointdefenseai",
+    "armoredweapons",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ncd_76mmrapid",
+        "WS0002": "railgun",
+        "WS0003": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

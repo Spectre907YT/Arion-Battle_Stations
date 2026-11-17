@@ -1,0 +1,89 @@
+{
+  "hullName": "Strikethrough",
+  "hullId": "ncd_strikethroughfs",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ncd_strikethroughfs.png",
+  "style": "NCD Co",
+  "height": 120,
+  "width": 80,
+  "center": [40, 58],
+  "collisionRadius": 72,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 66,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ncd_advconstruction",
+    "ncd_integratedew",
+    "ncd_atmoflight"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [12, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": 100,
+      "locations": [-27, 27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": -100,
+      "locations": [-27, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, 27],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, -27],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -57, -5,
+    -50, -22,
+    -50, -32,
+    -32, -39,
+    -24, -39,
+    1, -14,
+    60, -0,
+    1, 14,
+    -24, 39,
+    -32, 39,
+    -50, 32,
+    -50, 22,
+    -57, 5
+  ]
+}

@@ -1,12 +1,18 @@
 {
 
+	"combatSmallForSmallFleet":{
+		"ncd_angelbirdfs_escort":2,
+		"ncd_strikethroughfs_line":1,
+	},
+
 	"combatSmall":{
 		"ncd_angelbirdfs_escort":2,
+		"ncd_strikethroughfs_line":2,
+		"ncd_strikethroughfs_assault":1,
 	},
 
 	"combatMedium":{
 		"ncd_protectordd_line":2,
-		
 	},
 
 	"combatLarge":{
