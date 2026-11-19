@@ -8,10 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hardenedshieldemitter",
-    "pointdefenseai",
-    "armoredweapons",
-    "targetingunit"
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {

@@ -1,0 +1,101 @@
+{
+  "hullName": "Breakthrough",
+  "hullId": "ncd_breakthroughff",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ncd_breakthroughff.png",
+  "style": "NCD Co",
+  "height": 150,
+  "width": 80,
+  "center": [40, 74],
+  "collisionRadius": 82,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ncd_advconstruction",
+    "ncd_integratedew",
+    "ncd_atmoflight"
+  ],
+  "builtInWings": [
+    "ncd_sh4seabird_fighter_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 0,
+      "locations": [26, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": 95,
+      "locations": [-13, 27]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 265,
+      "angle": -95,
+      "locations": [-13, -27]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-46, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 27],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-36, -27],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73, -0],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -73, -5,
+    -58, -14,
+    -36, -14,
+    -36, -32,
+    -10, -39,
+    15, -14,
+    74, -0,
+    15, 14,
+    -10, 39,
+    -36, 32,
+    -36, 14,
+    -58, 14,
+    -73, 5
+  ]
+}

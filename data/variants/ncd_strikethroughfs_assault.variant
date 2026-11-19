@@ -3,15 +3,14 @@
   "hullId": "ncd_strikethroughfs",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 9,
+  "fluxCapacitors": 1,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "hardenedshieldemitter",
-    "pointdefenseai",
-    "armoredweapons",
-    "targetingunit"
+    "autorepair",
+    "unstable_injector"
   ],
   "weaponGroups": [
     {

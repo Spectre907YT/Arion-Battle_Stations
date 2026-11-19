@@ -1,22 +1,24 @@
 {
 
 	"combatSmallForSmallFleet":{
-		"ncd_angelbirdfs_escort":2,
-		"ncd_strikethroughfs_line":1,
+		"ncd_angelbirdfs_escort":1,
+		"ncd_strikethroughfs_line":2,
+		"ncd_breakthroughff_line":1,
 	},
 
 	"combatSmall":{
 		"ncd_angelbirdfs_escort":2,
 		"ncd_strikethroughfs_line":2,
 		"ncd_strikethroughfs_assault":1,
+		"ncd_breakthroughff_line":2,
 	},
 
 	"combatMedium":{
-		"ncd_protectordd_line":2,
+		"ncd_protectordd_line":2.5,
 	},
 
 	"combatLarge":{
-		"ncd_phalanxca_line":1,
+		"ncd_phalanxca_line":2,
 	},
 
 	"combatCapital":{
@@ -25,11 +27,11 @@
 	},
 
 	"carrierSmall":{
-		"ncd_principalityddv_line":1,
+		"ncd_principalityddv_line":2,
 	},
 
 	"carrierMedium":{
-		"ncd_powerslva_aviation":1,
+		"ncd_powerslva_aviation":2,
 	},
 
 	"carrierLarge":{

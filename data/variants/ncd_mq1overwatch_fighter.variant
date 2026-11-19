@@ -1,0 +1,23 @@
+{
+  "variantId": "ncd_mq1overwatch_fighter",
+  "hullId": "ncd_mq1overwatch",
+  "displayName": "Light Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ncd_hellfire_2x",
+        "WS0002": "ncd_hellfire_2x"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

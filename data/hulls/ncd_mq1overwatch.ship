@@ -1,0 +1,71 @@
+{
+  "hullName": "MQ-1 Overwatch",
+  "hullId": "ncd_mq1overwatch",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_mq1overwatch.png",
+  "style": "NCD Co",
+  "height": 30,
+  "width": 50,
+  "center": [25, 15],
+  "collisionRadius": 32,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 28,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -1, -24,
+    14, -0,
+    -1, 24,
+    -14, -0
+  ]
+}

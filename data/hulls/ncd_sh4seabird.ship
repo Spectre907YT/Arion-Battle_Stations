@@ -1,0 +1,105 @@
+{
+  "hullName": "SH-4 Seabird MOD 2",
+  "hullId": "ncd_sh4seabird",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/ncd_sh4seabirdmod2.png",
+  "style": "NCD Co",
+  "height": 40,
+  "width": 30,
+  "center": [15, 20],
+  "collisionRadius": 27,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -9]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 170,
+      "angle": 90,
+      "locations": [12, 3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 170,
+      "angle": -90,
+      "locations": [12, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [1, 13],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [1, -13],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-19, -0],
+      "length": 12.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    8, -14,
+    20, -0,
+    8, 14,
+    -19, -0
+  ]
+}

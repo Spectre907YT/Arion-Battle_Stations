@@ -50,9 +50,9 @@
       "location": [-50, 27],
       "length": 30,
       "width": 10,
-      "angle": 180,
+      "angle": -180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     },
     {
       "location": [-50, -27],
@@ -60,15 +60,15 @@
       "width": 10,
       "angle": -180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     },
     {
       "location": [-57, -0],
       "length": 30,
       "width": 10,
-      "angle": 180,
+      "angle": -180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     }
   ],
   "bounds": [

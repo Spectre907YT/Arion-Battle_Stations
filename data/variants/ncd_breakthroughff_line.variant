@@ -1,0 +1,32 @@
+{
+  "variantId": "ncd_breakthroughff_line",
+  "hullId": "ncd_breakthroughff",
+  "displayName": "Line",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ncd_127mmplasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ncd_laserciws",
+        "WS0003": "ncd_laserciws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
